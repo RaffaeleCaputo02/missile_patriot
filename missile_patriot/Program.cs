@@ -10,10 +10,10 @@ namespace missile_patriot
     {
         static void Main(string[] args)
         {
-            int tempo_caricamento;
-            Console.WriteLine("Inserisci il tempo di caricamento misurato in decimi");
-            tempo_caricamento = Convert.ToInt32(Console.ReadLine());
+            double errore_troncamento=0.000000095;
 
+            
+            
            
 
 
