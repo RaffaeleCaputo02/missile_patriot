@@ -20,7 +20,7 @@ namespace missile_patriot
             Console.WriteLine($"l'errore sul tempo risultante in secondi approssimato alla seconda decimale è {errore_tempo}");
 
             int velocità_scud=1676;
-            int spazio;
+            double spazio;
 
             spazio=velocità_scud*errore_tempo;
             Console.WriteLine($"Lo spazio è {spazio}");
