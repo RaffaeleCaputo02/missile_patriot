@@ -22,6 +22,10 @@ namespace missile_patriot
             int velocità_scud=1676;
             int spazio;
 
+            spazio=velocità_scud*errore_tempo;
+            Console.WriteLine($"Lo spazio è {spazio}");
+            
+
             Console.ReadLine();
 
 
