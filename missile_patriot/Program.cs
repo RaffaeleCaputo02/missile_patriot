@@ -19,6 +19,9 @@ namespace missile_patriot
             errore_tempo=Math.Round(errore_tempo,2);
             Console.WriteLine($"l'errore sul tempo risultante in secondi approssimato alla seconda decimale è {errore_tempo}");
 
+            int velocità_scud=1676;
+
+
             Console.ReadLine();
 
 
