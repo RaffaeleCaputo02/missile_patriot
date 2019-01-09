@@ -14,7 +14,10 @@ namespace missile_patriot
             double errore_tempo;
 
             errore_tempo=errore_troncamento*100*60*60*10;
-            Console.WriteLine($"l'errore sul tempo risultante è {errore_tempo}");
+            Console.WriteLine($"l'errore sul tempo risultante in secondi è {errore_tempo}");
+
+            errore_tempo=Math.Round(errore_tempo,2);
+            Console.WriteLine($"l'errore sul tempo risultante in secondi approssimato alla seconda decimale è {errore_tempo}");
 
             Console.ReadLine();
 
